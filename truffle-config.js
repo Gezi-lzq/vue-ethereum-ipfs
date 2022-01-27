@@ -32,6 +32,7 @@ module.exports = {
   compilers: {
     // Solidity编译器设置
     solc: {
+      version: "^0.8.0",
       optimizer: {
         enabled: true,
         runs: 200   // 优化次数
